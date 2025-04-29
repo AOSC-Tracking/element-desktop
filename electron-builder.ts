@@ -91,7 +91,7 @@ const config: Omit<Writable<Configuration>, "electronFuses"> & {
         electron_protocol: DEFAULT_PROTOCOL_SCHEME,
     },
     linux: {
-        target: ["tar.gz", "deb"],
+        target: ["tar.gz"],
         category: "Network;InstantMessaging;Chat",
         icon: "build/icon.png",
         executableName: pkg.name, // element-desktop or element-desktop-nightly
