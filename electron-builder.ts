@@ -114,7 +114,7 @@ const config: Omit<Writable<Configuration>, "electronFuses"> & {
         description: pkg.description,
     },
     linux: {
-        target: ["tar.gz", "deb"],
+        target: ["tar.gz"],
         category: "Network;InstantMessaging;Chat",
         maintainer: "support@element.io",
         icon: "build/icons",
