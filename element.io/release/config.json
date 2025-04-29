@@ -1,5 +1,5 @@
 {
-    "update_base_url": "https://packages.element.io/desktop/update/",
+    "update_base_url": null,
     "default_server_name": "matrix.org",
     "default_server_config": {
         "m.homeserver": {
