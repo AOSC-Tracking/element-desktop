@@ -16,7 +16,7 @@ import type { DependencyInfo } from "../../scripts/hak/dep.js";
 export default async function (hakEnv: HakEnv, moduleInfo: DependencyInfo): Promise<void> {
     const tools: Tool[] = [
         ["rustc", "--version"],
-        ["python", "--version"], // node-gyp uses python for reasons beyond comprehension
+        ["python3", "--version"], // node-gyp uses python for reasons beyond comprehension
     ];
     if (hakEnv.isWin()) {
         tools.push(["perl", "--version"]); // for openssl configure
